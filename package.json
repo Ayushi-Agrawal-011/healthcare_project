@@ -1,0 +1,36 @@
+{
+  "name": "healthcare",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://github.com/Ayushi-Agrawal-011/healthcare_project#readme",
+  "bugs": {
+    "url": "https://github.com/Ayushi-Agrawal-011/healthcare_project/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ayushi-Agrawal-011/healthcare_project.git"
+  },
+  "license": "MIT",
+  "author": "",
+  "type": "commonjs",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "nodemon src/server.js"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "helmet": "^7.1.0",
+    "jsonwebtoken": "^9.0.2",
+    "pg": "^8.12.0",
+    "pg-hstore": "^2.3.4",
+    "sequelize": "^6.37.3",
+    "zod": "^3.23.8"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.14"
+  }
+}
